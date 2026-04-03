@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Voice Assistant Using Codex</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>AI Voice Assistant Using Codex</h1>
+      <p class="subtitle">Click the mic, speak naturally, and hear the AI response.</p>
+
+      <section class="panel controls">
+        <button id="micButton" class="mic-button" aria-label="Start voice input">🎤</button>
+        <p id="status" class="status">Status: Idle</p>
+      </section>
+
+      <section class="panel">
+        <h2>Transcript</h2>
+        <div id="transcript" class="box">Your speech will appear here...</div>
+      </section>
+
+      <section class="panel">
+        <h2>AI Response</h2>
+        <div id="response" class="box">The AI response will appear here...</div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
